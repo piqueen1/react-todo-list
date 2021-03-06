@@ -1,22 +1,22 @@
-import React from "react"
-import ReactDOM from "react-dom"
+import React from 'react'
+import ReactDOM from 'react-dom'
 
-function MyApp() {
+function MyInfo() {
   return (
-    <div>
-      <h2>What my kids are doing this morning</h2>
-      <ul>
-        <li>Read books to each other</li>
-        <li>Show each other tablet games</li>
-        <li>Eat cuties and bacon and eggs</li>
-        <li>Put on bathingsuits</li>
-        <li>Go get in the hot springs</li>
-      </ul>
+    <div className="main">
+      <h1>Finn Thye</h1>
+      <p>I'm a poet, a mom, a recovering addict, a web developer and a linguist.</p>
+      <p>Powerhouse femeninity, battleaxe fairy godmother, I've got your back.</p>
+      <ol>
+        <li>Princeton Hot Springs</li>
+        <li>Prague</li>
+        <li>Blackberry-brambled cemeteries in Wales</li>
+      </ol>
     </div>
   )
 }
 
 ReactDOM.render(
-  <MyApp />,
-  document.getElementById("root")
+  <MyInfo />,
+  document.getElementById('root')
   )
