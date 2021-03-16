@@ -1,21 +1,17 @@
-import React from 'react'
+import React from "react"
+
+import Header from "./components/Header"
+import MainContent from "./components/MainContent"
+import Footer from "./components/Footer"
 
 function App() {
-  return (
-    <div>
-        <input type="checkbox" />
-        <p>Placeholder Text Here</p>
-
-        <input type="checkbox" />
-        <p>Placeholder Text Here</p>
-
-        <input type="checkbox" />
-        <p>Placeholder Text Here</p>
-
-        <input type="checkbox" />
-        <p>Placeholder Text Here</p>
-    </div>
-  )
+    return (
+        <div>
+            <Header />
+            <MainContent />
+            <Footer />
+        </div>
+    )
 }
 
 export default App
