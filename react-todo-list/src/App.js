@@ -1,8 +1,15 @@
 import React from 'react'
+import Navbar from './components/Navbar'
+import MainContent from './components/MainContent'
+import Footer from './components/Footer'
 
 function App() {
   return (
-    <h1>Hello World!</h1>
+    <div>
+      <Navbar />
+      <MainContent />
+      <Footer />
+    </div>
   )
 }
 
